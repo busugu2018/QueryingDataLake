@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="Yb8DUhFZWJTQ1dWOee-j">
+    <mxGraphModel dx="1800" dy="1337" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NgGsSgd9aasbSs73xHWi-1" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.athena;" value="" vertex="1">
+          <mxGeometry height="78" width="78" x="380" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="NgGsSgd9aasbSs73xHWi-2" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" value="" vertex="1">
+          <mxGeometry height="64" width="48" x="220" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="NgGsSgd9aasbSs73xHWi-3" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/dep/SQL_Server_Stretch_DB.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="220" y="504" as="geometry" />
+        </mxCell>
+        <mxCell id="NgGsSgd9aasbSs73xHWi-4" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/dep/SQL_Server_Stretch_DB.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="220" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="NgGsSgd9aasbSs73xHWi-5" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/dep/SQL_Server_Stretch_DB.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="540" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="NgGsSgd9aasbSs73xHWi-6" parent="1" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="" vertex="1">
+          <mxGeometry height="40" width="30" x="680" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="NgGsSgd9aasbSs73xHWi-7" parent="1" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="" vertex="1">
+          <mxGeometry height="64" width="50" x="218" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="NgGsSgd9aasbSs73xHWi-8" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" value="" vertex="1">
+          <mxGeometry height="78" width="78" x="40" y="251" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
