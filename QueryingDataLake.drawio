@@ -113,6 +113,12 @@
             <mxPoint x="740" y="643.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="0Ek9605RatvgMsn6rOVB-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1" vertex="1">
+          <mxGeometry height="40" width="35" x="35" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ek9605RatvgMsn6rOVB-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="TRANSACTION GENERATOR&lt;div&gt;LAMBDA FCTON&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="49" y="350" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
