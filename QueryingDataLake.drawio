@@ -133,10 +133,10 @@
         <mxCell id="0Ek9605RatvgMsn6rOVB-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="S3 bucket&lt;div&gt;(Ingestion)&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="429" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="0Ek9605RatvgMsn6rOVB-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="generate CSV" vertex="1">
+        <mxCell id="0Ek9605RatvgMsn6rOVB-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;rounded=0;" value="generate CSV" vertex="1">
           <mxGeometry height="30" width="60" x="130" y="258" as="geometry" />
         </mxCell>
-        <mxCell id="0Ek9605RatvgMsn6rOVB-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Save in S3" vertex="1">
+        <mxCell id="0Ek9605RatvgMsn6rOVB-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;rounded=0;" value="Save in S3" vertex="1">
           <mxGeometry height="30" width="60" x="330" y="251" as="geometry" />
         </mxCell>
         <mxCell id="0Ek9605RatvgMsn6rOVB-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="1" vertex="1">
@@ -166,7 +166,7 @@
         <mxCell id="0Ek9605RatvgMsn6rOVB-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="AMAZON ATHENA" vertex="1">
           <mxGeometry height="30" width="60" x="429" y="664" as="geometry" />
         </mxCell>
-        <mxCell id="0Ek9605RatvgMsn6rOVB-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Get transaction data" vertex="1">
+        <mxCell id="0Ek9605RatvgMsn6rOVB-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;" value="Get transaction data" vertex="1">
           <mxGeometry height="30" width="60" x="330" y="320" as="geometry" />
         </mxCell>
         <mxCell id="0Ek9605RatvgMsn6rOVB-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="2" vertex="1">
@@ -175,7 +175,7 @@
         <mxCell id="0Ek9605RatvgMsn6rOVB-46" edge="1" parent="1" source="0Ek9605RatvgMsn6rOVB-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="0Ek9605RatvgMsn6rOVB-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0Ek9605RatvgMsn6rOVB-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Create transactions table" vertex="1">
+        <mxCell id="0Ek9605RatvgMsn6rOVB-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;" value="Create transactions table" vertex="1">
           <mxGeometry height="30" width="60" x="330" y="450" as="geometry" />
         </mxCell>
         <mxCell id="0Ek9605RatvgMsn6rOVB-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Store created table data in S3" vertex="1">
@@ -189,6 +189,45 @@
         </mxCell>
         <mxCell id="0Ek9605RatvgMsn6rOVB-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Find&lt;/div&gt;Suspicious transactions" vertex="1">
           <mxGeometry height="30" width="60" x="290" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ek9605RatvgMsn6rOVB-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" value="3" vertex="1">
+          <mxGeometry height="40" width="35" x="355" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ek9605RatvgMsn6rOVB-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" value="3" vertex="1">
+          <mxGeometry height="40" width="35" x="498" y="544" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ek9605RatvgMsn6rOVB-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Create Queries" vertex="1">
+          <mxGeometry height="30" width="60" x="142.5" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ek9605RatvgMsn6rOVB-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Find&lt;/div&gt;Fraudulent transactions" vertex="1">
+          <mxGeometry height="30" width="60" x="330" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ek9605RatvgMsn6rOVB-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Generate Query Results" vertex="1">
+          <mxGeometry height="30" width="60" x="545" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ek9605RatvgMsn6rOVB-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" value="4" vertex="1">
+          <mxGeometry height="40" width="35" x="130" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ek9605RatvgMsn6rOVB-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" value="4" vertex="1">
+          <mxGeometry height="40" width="35" x="515" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ek9605RatvgMsn6rOVB-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" value="4" vertex="1">
+          <mxGeometry height="40" width="35" x="340" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ek9605RatvgMsn6rOVB-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Save to S3" vertex="1">
+          <mxGeometry height="30" width="60" x="680" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ek9605RatvgMsn6rOVB-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" value="4" vertex="1">
+          <mxGeometry height="40" width="35" x="735" y="544" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ek9605RatvgMsn6rOVB-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Delete Table" vertex="1">
+          <mxGeometry height="30" width="60" x="502.5" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ek9605RatvgMsn6rOVB-66" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="500" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ek9605RatvgMsn6rOVB-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" value="5" vertex="1">
+          <mxGeometry height="40" width="35" x="515" y="765" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
