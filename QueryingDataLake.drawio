@@ -43,6 +43,27 @@
         <mxCell id="0Ek9605RatvgMsn6rOVB-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="70" y="360" as="geometry" />
         </mxCell>
+        <mxCell id="0Ek9605RatvgMsn6rOVB-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ek9605RatvgMsn6rOVB-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="10" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ek9605RatvgMsn6rOVB-7" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ek9605RatvgMsn6rOVB-8" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="90" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ek9605RatvgMsn6rOVB-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="730" as="sourcePoint" />
+            <mxPoint x="210" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Ek9605RatvgMsn6rOVB-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="FRAUD DPMT" vertex="1">
+          <mxGeometry height="30" width="60" x="35" y="850" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
