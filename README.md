@@ -5,7 +5,7 @@
 Built a serverless data analytics workflow using **AWS Lambda, Amazon S3, and Amazon Athena** to ingest and analyze simulated credit card transaction data and identify potentially suspicious activity.
 
 ## Architecture
-![Alt text](dl1.png)
+![Alt text](qdl1.png)
 
 
 **AWS Lambda → Amazon S3 → Amazon Athena → SQL Analysis**
