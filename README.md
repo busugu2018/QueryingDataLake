@@ -9,15 +9,10 @@ I built a serverless data analytics workflow using **AWS Lambda, Amazon S3, and 
 
 
 **AWS Lambda → Amazon S3 → Amazon Athena → SQL Analysis**
-
-* **AWS Lambda** generates simulated credit card transaction data:
-
+* **AWS Lambda** generates simulated credit card transaction data.
 * **Amazon S3** stores the transaction files as the data lake.
-  
-* **Amazon Athena** queries the data directly from S3 using SQL:
-
-* SQL queries identify transactions matching potential fraud indicators:
-
+* **Amazon Athena** queries the data directly from S3 using SQL.
+* SQL queries identify transactions matching potential fraud indicators.
 * Athena stores query results in S3 for further analysis.
 
 ## What I Built
