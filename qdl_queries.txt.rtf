@@ -1,0 +1,57 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww33400\viewh20440\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 ### Task 1. Transaction table creation query\
+\
+CREATE EXTERNAL TABLE IF NOT EXISTS `default`.`cc_transactions` (\
+  `record_number` int,\
+  `first_name` string,\
+  `last_name` string,\
+  `transaction_date` date,\
+  `card_number` bigint,\
+  `card_expire` string,\
+  `card_type` string,\
+  `card_sec_code` int,\
+  `transaction_amount` decimal(7,2),\
+  `user_agent` string\
+) \
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe' \
+WITH SERDEPROPERTIES (\
+  'serialization.format' = ',',\
+  'field.delim' = ','\
+) LOCATION 's3://<YOUR_INGEST_BUCKET_NAME>'\
+TBLPROPERTIES ('has_encrypted_data'='true');\
+\
+###\
+\
+### Task 2. Suspicious table creation query\
+\
+CREATE TABLE "default"."sus_transactions" AS\
+SELECT * FROM "default"."cc_transactions"\
+WHERE transaction_amount > 5000;\
+\
+###\
+\
+\
+### Task 3. Get records over $5000 with an invalid security code.\
+\
+SELECT * FROM "default"."sus_transactions"\
+WHERE\
+transaction_amount > 5000\
+AND\
+card_sec_code < 100;\
+\
+###\
+\
+\
+### Task 4. Get Diner's Club card purchases over $10,000.\
+\
+SELECT * FROM "default"."sus_transactions"\
+WHERE\
+transaction_amount > 10000\
+AND\
+card_type like '%Diner%';}
